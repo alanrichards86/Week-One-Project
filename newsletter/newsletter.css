@@ -18,6 +18,9 @@
 .nav-text-contain a {
     color: #2B2F26;
 }
+.nav-text-contain a:hover {
+  color: #967343
+}
 .logo {
     height: 52px;
     width: 55px;
@@ -46,16 +49,22 @@
 }
 .input-name {
   border: none;
-  border-bottom: 2px solid #968774;
+  border-bottom: 2px solid #968772;
   font-size: 1.5em;
   width: 45vw;
   margin-bottom: 45px;
 }
+.input-name:focus {
+  border-bottom: 2px solid #967343;
+}
 .input-email {
   border: none;
-  border-bottom: 2px solid #968774;
+  border-bottom: 2px solid #968772;
   font-size: 1.5em;
   width: 45vw;
+}
+.input-email:focus {
+  border-bottom: 2px solid #967343;
 }
 #submit_button {
   margin-top: 3vh;
@@ -63,8 +72,11 @@
   height: 10vh;
   background-color: #968774;
   font-size: 1.5em;
-  color: white;
+  color: #F2F1E8;
   border: none;
   font-weight: 200;
-
+}
+#submit_button:hover {
+  background-color: #967343;
+  color: #FFFFFF;
 }

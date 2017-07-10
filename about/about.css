@@ -34,6 +34,9 @@ main {
 .nav-text-contain a {
     color: #2B2F26;
 }
+.nav-text-contain a:hover {
+  color: #967343
+}
 .logo {
     height: 52px;
     width: 55px;
