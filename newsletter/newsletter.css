@@ -22,11 +22,49 @@
     height: 52px;
     width: 55px;
 }
-/*#bg-img {
-  width: 100vw;
-  height: 100vh;
-}*/
 .img {
   width: 99vw;
   height: 99vh;
+}
+#form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -70vh;
+  margin-left: 21em;
+  width: 52vw;
+  background-color: white;
+  height: 50vh;
+}
+.info-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-name {
+  border: none;
+  border-bottom: 2px solid #968774;
+  font-size: 1.5em;
+  width: 45vw;
+  margin-bottom: 45px;
+}
+.input-email {
+  border: none;
+  border-bottom: 2px solid #968774;
+  font-size: 1.5em;
+  width: 45vw;
+}
+#submit_button {
+  margin-top: 3vh;
+  width: 15vw;
+  height: 10vh;
+  background-color: #968774;
+  font-size: 1.5em;
+  color: white;
+  border: none;
+  font-weight: 200;
+
 }
