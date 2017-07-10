@@ -1,0 +1,32 @@
+.nav-bar {
+    position: fixed;
+    background-color: white;
+    align-items: center;
+    width: 1450px;
+    height: 70px;
+    padding-top: 10px;
+    z-index: 100;
+}
+
+.nav-text-contain {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 19px;
+}
+.nav-text-contain a {
+    color: #2B2F26;
+}
+.logo {
+    height: 52px;
+    width: 55px;
+}
+/*#bg-img {
+  width: 100vw;
+  height: 100vh;
+}*/
+.img {
+  width: 99vw;
+  height: 99vh;
+}
